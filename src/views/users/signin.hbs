@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card mt-4 text center">
+            <div class="card-header text-center">
+                <h2>Account Login</h2>
+            </div>
+            <img src="/img/notes.png" class="logo mx-auto d-block m-4" alt="Logotype">
+            <div class="card-body">
+                <form action="/users/signin" method="POST">
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Email" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Sign in
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
